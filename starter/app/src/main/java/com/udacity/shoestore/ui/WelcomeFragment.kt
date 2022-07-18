@@ -14,8 +14,6 @@ import com.udacity.shoestore.databinding.FragmentWelcomeBinding
 
 class WelcomeFragment : Fragment() {
 
-
-
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -29,11 +27,9 @@ class WelcomeFragment : Fragment() {
         return binding.root
     }
 
-
     private fun navigateToInstructionScreen() {
         val action =
             WelcomeFragmentDirections.actionWelcomeFragmentToInstructionFragment()
         findNavController().navigate(action)
     }
-
 }
