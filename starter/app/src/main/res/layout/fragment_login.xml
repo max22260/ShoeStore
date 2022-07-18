@@ -4,10 +4,12 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
+
+    <!--constraint layout hold two text field email and password and login buttons-->
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".ui.LoginFragment"
+        tools:context=".ui.fragments.LoginFragment"
         tools:layout_editor_absoluteX="-184dp"
         tools:layout_editor_absoluteY="86dp">
 

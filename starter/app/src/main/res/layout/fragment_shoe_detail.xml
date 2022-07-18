@@ -11,10 +11,12 @@
         <import type="com.udacity.shoestore.utils.Converter"/>
     </data>
 
+    <!--constraint layout hold txt view and edit text about shoe details-->
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".ui.ShoeDetailFragment">
+        tools:context=".ui.fragments.ShoeDetailFragment">
 
         <TextView
             android:id="@+id/shoe_name_tv"
