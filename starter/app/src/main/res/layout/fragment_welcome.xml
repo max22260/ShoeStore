@@ -5,10 +5,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <!--constraint layout hold to text view and next button -->
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".ui.WelcomeFragment">
+        tools:context=".ui.fragments.WelcomeFragment">
 
         <TextView
             android:id="@+id/textView3"
