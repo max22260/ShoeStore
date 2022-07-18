@@ -13,4 +13,15 @@
     <string name="instruction">The shoe listing page will show the list of shoes and show a button for adding a new shoe, while the detail page will be for adding a shoe entry. All entries will be saved only as long as the app is running.</string>
     <string name="logging_in_with_existing">logging in with an existing account</string>
     <string name="add_new_shoe_description">add new shoe</string>
+    <string name="company">Company</string>
+    <string name="shoe_name">Shoe Name</string>
+    <string name="shoe_size">Shoe Size</string>
+    <string name="description">Description</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">save</string>
+    <string name="enter_shoe_size">enter shoe size</string>
+    <string name="enter_company_name">enter company name</string>
+    <string name="enter_shoe_name">enter shoe name</string>
+    <string name="write_description">write description</string>
+    <string name="logout">logout</string>
 </resources>

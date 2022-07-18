@@ -42,10 +42,11 @@
 
         <Button
             android:id="@+id/login_button"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="@string/login"
             android:layout_margin="10dp"
+            app:layout_constraintHorizontal_weight="1"
             app:layout_constraintEnd_toStartOf="@+id/login_with_ex_button"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
@@ -53,8 +54,9 @@
 
         <Button
             android:id="@+id/login_with_ex_button"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            app:layout_constraintHorizontal_weight="2"
             android:text="@string/logging_in_with_existing"
             android:layout_margin="10dp"
             app:layout_constraintEnd_toEndOf="parent"
